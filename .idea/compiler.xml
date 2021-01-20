@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaFundemental" />
+        <module name="OOD" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaFundemental" target="15" />
+      <module name="OOD" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
